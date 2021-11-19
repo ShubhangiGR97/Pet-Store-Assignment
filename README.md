@@ -10,6 +10,6 @@ Shubangi Rathnayake  - 18001361
 ## Run test suite
     ./gradlew test
   
-## CURL Commands 
-Get all pets 
-
+# CURL Commands 
+## Get all pets 
+    curl -XGET -H "Content-type: application/json" 'http://localhost:8080/v1/petType/'
